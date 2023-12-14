@@ -32,6 +32,14 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
+- Adicione o e-mail e envie o formulário
+- Veja uma mensagem de sucesso com seu e-mail após enviar o formulário com sucesso
+- Veja mensagens de validação de formulário se:
+  - O campo fica vazio
+  - O endereço de e-mail não está formatado corretamente
+- Veja o layout ideal da interface dependendo do tamanho da tela do dispositivo
+- Veja os estados de foco e foco para todos os elementos interativos na página
+
 ### Screenshot
 
 ![](./screenshot.jpg)
