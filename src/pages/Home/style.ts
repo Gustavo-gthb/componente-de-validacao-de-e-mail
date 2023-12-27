@@ -22,7 +22,7 @@ export const LetterContainer = styled.div`
 
   p {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
     gap: 10px;
   }
 `;
