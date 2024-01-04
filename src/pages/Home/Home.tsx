@@ -2,12 +2,14 @@ import { ContainerHome, ImgContainer, LetterContainer } from "./style";
 import SendEmailButton from "../../components/sendEmail/SendEmail";
 import ImgDesktop from "../../assets/images/imgDesktop";
 import IconList from "../../assets/images/iconList";
+import { sendProps } from "../../routes/Routes";
 
-function Home() {
+
+const Home: React.FC <sendProps> = ({handleChange, sendEmailData}) => {
   return (
     <>
       <ContainerHome>
-        <LetterContainer> 
+        <LetterContainer>
           <h1>Stay updated!</h1>
 
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -20,13 +22,13 @@ function Home() {
           <p>
             {" "}
             <IconList />
-            Measuring to ensure updates are a sucess
+            Measuring to ensure updates are a sucess 
           </p>
           <p>
             {" "}
             <IconList /> And much more!
           </p>
-          <SendEmailButton />
+          <SendEmailButton handleChange={handleChange} sendEmailData={sendEmailData} />
         </LetterContainer>
         <ImgContainer>
           <ImgDesktop />

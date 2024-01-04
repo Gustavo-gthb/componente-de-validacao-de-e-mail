@@ -21,6 +21,7 @@ export const SendInput = styled.input`
   padding-left: 20px;
   border-radius: 5%;
   background-color: hsl(0, 0%, 100%);
+  color: hsl(234, 29%, 20%);
 `;
 
 export const SendButton = styled.button`

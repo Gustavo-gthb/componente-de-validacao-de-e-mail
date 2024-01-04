@@ -1,16 +1,7 @@
-import { useState } from "react";
-import "./App.css";
-import { EmailProvider } from "./context/EmailContext";
-import RouterController from "./routes";
+import RouterController from "./routes/Routes";
 
-function App() {
-  return (
-    <>
-      <EmailProvider>
-        <RouterController />
-      </EmailProvider>
-    </>
-  );
-}
+export const App: React.FC = () => {
+  return <RouterController />;
+};
 
 export default App;

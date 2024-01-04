@@ -1,2 +1,4 @@
-const value: React.JSX.Element;
-export default value;
+declare module "./routes/Routes" {
+    const value: React.FC;
+    export default value;
+}
